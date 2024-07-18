@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut-icon" href="img/favicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/formularios.css">
+
+    <title>Registrarse</title>
+</head>
+
+<body>
+    <div>
+        <form class="formulario" method="get" name="Consultas" action="">
+            <fieldset>
+                <legend class="legend">Iniciar Sesion</legend>
+                <div class="formulario">
+                    <div class="datos">
+                        <label for="mail">Correo electronico</label>
+                        <div>
+                            <input class="campo__inp email-field" id="email" type="email"
+                                placeholder="JaneDoe@gmail.com" name="mail">
+                            <div class="error-text"></div>
+                        </div>
+                        <label for="password">Contraseña</label>
+                        <div>
+                            <input class="campo__inp contraseña-field" id="password" type="password" name="password">
+                            <div class="error-text"></div>
+                        </div>
+                    </div>
+                    <br>
+                    <input type="submit" value="Registrarse">
+        </form>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <script src="../js/validar.js"></script>
+</body>
+
+</html>
